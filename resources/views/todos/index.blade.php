@@ -8,7 +8,7 @@
             </div>
         @endif
 
-      <ul>
+    <ul>
         @foreach ($todos as $todo)
             <li>
                 {{ $todo->title }}
